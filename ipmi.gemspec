@@ -3,7 +3,6 @@ require 'date'
 Gem::Specification.new do |s|
   s.name        = 'foreman_plugin_ipmi'
   s.version     = '0.0.1'
-  s.date        = Time.zone.today
   s.authors     = ['STI-IT Dev']
   s.email       = ['stiitdev@groupes.epfl.ch']
   s.homepage    = 'https://github.com/epfl-sti/cluster.foreman.ipmi'
