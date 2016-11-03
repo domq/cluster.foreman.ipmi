@@ -1,7 +1,7 @@
 require 'date'
 
 Gem::Specification.new do |s|
-  s.name        = 'foreman_plugin_ipmi'
+  s.name        = 'foreman_ipmi'
   s.version     = '0.0.1'
   s.authors     = ['STI-IT Dev']
   s.email       = ['stiitdev@groupes.epfl.ch']
