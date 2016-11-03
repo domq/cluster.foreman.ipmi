@@ -1,2 +1,2 @@
 # Matches foreman_plugin_template.gemspec
-_('TODO: Description of ForemanPluginTemplate.')
+_('Show the IPMI state of the entire fleet.')

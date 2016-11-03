@@ -1,16 +1,15 @@
-require File.expand_path('../lib/foreman_plugin_template/version', __FILE__)
 require 'date'
 
 Gem::Specification.new do |s|
-  s.name        = 'foreman_plugin_template'
-  s.version     = ForemanPluginTemplate::VERSION
+  s.name        = 'foreman_plugin_ipmi'
+  s.version     = '0.0.1'
   s.date        = Time.zone.today
-  s.authors     = ['TODO: Your name']
-  s.email       = ['TODO: Your email']
-  s.homepage    = 'TODO'
-  s.summary     = 'TODO: Summary of ForemanPluginTemplate.'
+  s.authors     = ['STI-IT Dev']
+  s.email       = ['stiitdev@groupes.epfl.ch']
+  s.homepage    = 'https://github.com/epfl-sti/cluster.foreman.ipmi'
+  s.summary     = 'Manage and diagnose the IPMI state of the fleet from within Foreman'
   # also update locale/gemspec.rb
-  s.description = 'TODO: Description of ForemanPluginTemplate.'
+  s.description = 'Show the IPMI state of the entire fleet.'
 
   s.files = Dir['{app,config,db,lib,locale}/**/*'] + ['LICENSE', 'Rakefile', 'README.md']
   s.test_files = Dir['test/**/*']

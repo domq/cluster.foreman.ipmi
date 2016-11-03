@@ -1,4 +1,4 @@
-# ForemanPluginTemplate
+# foreman_plugin_ipmi
 
 *Introdction here*
 
